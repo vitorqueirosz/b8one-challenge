@@ -1,0 +1,39 @@
+.wishListWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-grayscale-200);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.wishListWrapper svg {
+  width: 24px;
+  height: 21px;
+  transition: color 0.3s ease-in-out;
+}
+
+.wishListWrapper:hover {
+  background-color:  var(--color-pink-100);
+}
+
+.wishListWrapper:hover svg {
+  color: var(--color-red-500);
+}
+
+.wishListWrapper.added {
+  background-color: var(--color-red-500);
+}
+
+.wishListWrapper.added svg {
+  color: var(--color-grayscale);
+}
+
+.wishListWrapper.added:hover {
+  background-color: var(--color-red-600);
+}

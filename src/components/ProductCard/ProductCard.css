@@ -1,0 +1,75 @@
+.productWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 304px;
+  background-color: var(--color-grayscale);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 0 16px 16px 0;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.productWrapper:hover {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+  .productWrapper {
+    margin-right: 0;
+  }
+}
+
+.productWrapper div.content {
+  text-align: left;
+  margin: 16px 0 32px;
+}
+
+.productWrapper div.imageContainer {
+  position: relative;
+}
+
+.productWrapper div.imageContainer img {
+  width: 240px;
+  height: 240px;
+}
+
+.productWrapper div.imageContainer button {
+  right: 0;
+  top: 0;
+}
+
+.productWrapper div.content span {
+  color: var(--color-grayscale-900);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.productWrapper div.content div.price {
+  margin-top: 16px;
+}
+
+.productWrapper div.content div.price p {
+  color: var(--color-grayscale-600);
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.productWrapper div.content div.price h3 {
+  color: var(--color-red-500);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.productWrapper div.content div.price small {
+  color: var(--color-grayscale-700);
+  font-size: 12px;
+}
+
+.productWrapper div.content div.price small strong {
+  color: var(--color-grayscale-900);
+}

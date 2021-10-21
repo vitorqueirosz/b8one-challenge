@@ -1,0 +1,28 @@
+:root {
+  --color-green-100: #A3F9B9;
+  --color-green-400: #40B25C;
+  --color-green-600: #1C6C3E;
+  --color-grayscale: #FFFFFF;
+  --color-grayscale-200: #F2F3F6;
+  --color-grayscale-300: #E9EBEE;
+  --color-grayscale-600: #B5B5B6;
+  --color-grayscale-700: #848587;
+  --color-grayscale-900: #1C1C1C;
+  --color-pink-100: #FEE5EC;
+  --color-red-500: #DA4B4F;
+  --color-red-600: #C22539;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
