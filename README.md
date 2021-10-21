@@ -1,1 +1,8 @@
-# b8one-challenge
+# B8One-challenge
+
+## ⚙️ Install dependencies
+    yarn
+
+## 📱 Run App
+    
+    yarn start
